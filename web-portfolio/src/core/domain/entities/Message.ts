@@ -3,5 +3,5 @@ export interface Message {
 }
 
 export class HelloWorldMessage implements Message {
-    content: string = "Hello World";
+    content: string = "Hello Worlds";
 } 

@@ -3,11 +3,35 @@
 @tailwind utilities;
 
 :root {
-  --foreground: #000;
-  --background: #fff;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
 }
 
+/* Default Light Mode */
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+/* Dark Mode */
+html.dark body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+/* Optional: Adjustments for specific elements in dark mode */
+html.dark a {
+  /* Example: Slightly lighter link color in dark mode if needed */
+  /* @apply text-blue-400; */
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 } 

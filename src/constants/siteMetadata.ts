@@ -1,12 +1,12 @@
 export const siteMetadata = {
-    title: 'Your Name - Web Developer',
+    title: 'Nicholas Millett - Web Developer',
     description: 'Professional web developer portfolio showcasing projects and skills in web development.',
-    author: 'Your Name',
+    author: 'Nicholas Millett',
     siteUrl: 'https://your-domain.com',
     language: 'en-US',
-    email: 'your.email@example.com',
-    github: 'https://github.com/yourusername',
+    email: 'nicholas.millett@gmail.com',
+    github: 'https://github.com/NicholasMillett',
     twitter: 'https://twitter.com/yourusername',
-    linkedin: 'https://linkedin.com/in/yourusername',
+    linkedin: 'https://www.linkedin.com/in/nicholas-millett-743b1265/',
     locale: 'en-US',
 }; 

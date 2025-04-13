@@ -9,4 +9,5 @@ export const siteMetadata = {
     twitter: 'https://twitter.com/yourusername',
     linkedin: 'https://www.linkedin.com/in/nicholas-millett-743b1265/',
     locale: 'en-US',
+    icon: '/favicon-32x32.png',
 }; 
